@@ -12,7 +12,7 @@ class Core {
      //print_r($this->getUrl());
     $url = $this->getUrl();
     // Look in Contoller For Firs Value 
-    echo($url);
+    
     if(file_exists('../app/controllers/' . ucwords($url[0]).'.php')){
           // if exists then set as Conntroller
           $this->currentController = ucwords($url[0]);
