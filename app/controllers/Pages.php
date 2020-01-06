@@ -4,9 +4,9 @@ class Pages extends Controller {
         
     }
     public function index(){
-        $this->view('hello');
+        $this->view('pages/index', ['title' => 'welcome']);
     }
-    public function about($id){
-      echo $id;
+    public function about(){
+      $this->view('pages/about', ['title' => 'abouuuuuuut']);
     }
 }
