@@ -4,7 +4,7 @@
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'fmvc');
+define('DB_NAME', '');
 
 //App route
 define('APPROOT', dirname(dirname(__File__)));
